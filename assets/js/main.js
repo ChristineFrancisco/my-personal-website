@@ -239,12 +239,13 @@
 		const theme = document.querySelector("#theme-link");
 		btn.addEventListener("click", function() {
 		// Swap out the URL for the different stylesheets
-		if (theme.getAttribute("href") == "light-theme.css") {
-			theme.href = "assets/main-dark.css";
+		if (theme.getAttribute("href") == "assets/css/main.css") {
+			theme.href = "assets/css/main-dark.css";
 		} else {
-			theme.href = "main.css";
+			theme.href = "assets/css/main.css";
 		}
 		});
+
 	// Menu.
 		var $menu = $('#menu'),
 			$menu_openers = $menu.children('ul').find('.opener');

@@ -1029,7 +1029,7 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background: #ffffff;
+  background: #000000;
   border-radius: 0.375em;
   border: none;
   border: solid 1px rgba(210, 215, 217, 0.75);
@@ -1069,7 +1069,7 @@ select {
   text-overflow: ellipsis; }
   select option {
     color: #3d4449;
-    background: #ffffff; }
+    background: #000000; }
   select:focus::-ms-value {
     background-color: transparent; }
   select::-ms-expand {
@@ -1124,7 +1124,7 @@ input[type="radio"] {
       font-weight: 900; }
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
-      background: #ffffff;
+      background: #000000;
       border-radius: 0.375em;
       border: solid 1px rgba(210, 215, 217, 0.75);
       content: '';
@@ -1141,7 +1141,7 @@ input[type="radio"] {
   input[type="radio"]:checked + label:before {
     background: #3d4449;
     border-color: #3d4449;
-    color: #ffffff;
+    color: #000000;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
@@ -1422,7 +1422,7 @@ ul.pagination {
       text-align: center; }
       ul.pagination li > .page.active {
         background-color: #e1c699;
-        color: #ffffff !important; }
+        color: #000000 !important; }
         ul.pagination li > .page.active:hover {
           background-color: #f67878; }
         ul.pagination li > .page.active:active {
@@ -1555,7 +1555,7 @@ button,
   .button.primary {
     background-color: #e1c699;
     box-shadow: none;
-    color: #ffffff !important; }
+    color: #000000 !important; }
     input[type="submit"].primary:hover,
     input[type="reset"].primary:hover,
     input[type="button"].primary:hover,

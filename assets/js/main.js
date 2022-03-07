@@ -235,16 +235,25 @@
 				});
 
 	//Dark mode
-		const btn = document.querySelector(".dark-toggle");
-		const theme = document.querySelector("#theme-link");
-		btn.addEventListener("click", function() {
-		// Swap out the URL for the different stylesheets
-		if (theme.getAttribute("href") == "assets/css/main.css") {
-			theme.href = "assets/css/main-dark.css";
-		} else {
-			theme.href = "assets/css/main.css";
-		}
-		});
+	// const moon = document.querySelector('#fa-moon');
+	// const sun = document.querySelector('#fa-sun');
+	// window.onload = function() {
+	// 	moon.classList.toggle('.hidden');
+	// }
+	// 	const btn = document.querySelector(".dark-toggle");
+	// 	const theme = document.querySelector("#theme-link");
+	// 	btn.addEventListener("click", function() {
+	// 	// Swap out the URL for the different stylesheets
+	// 	if (theme.getAttribute("href") == "assets/css/main.css") {
+	// 		theme.href = "assets/css/main-dark.css";
+	// 		moon.classList.add('.hidden');
+	// 		sun.classList.toggle('.hidden')
+	// 	} else {
+	// 		theme.href = "assets/css/main.css";
+	// 		moon.classList.toggle('.hidden');
+	// 		sun.classList.add('.hidden')
+	// 	}
+	// 	});
 
 	// Menu.
 		var $menu = $('#menu'),
